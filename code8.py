@@ -6,7 +6,7 @@ sentence = input("Enter a sentence: ")
 words = sentence.split()
 #for loop :
 for word in words:
-   print(word[::-1])   #reverse each words in sentence:
+   print(word[::-1], end = " ")   #reverse each words in sentence:
 
 
 
